@@ -30,7 +30,7 @@ const Billboard = () => {
                 <div className=' absolute  right-0 mr-28 z-0 rounded-xl transform md:skew-y-6 ml-auto'
 
                 >
-                    <Image alt='' className='drop-shadow-2xl' src={ProductHeader} width={800} height={800} placeholder='blur' />
+                    <Image alt='' className='drop-shadow-2xl' quality={70} src={ProductHeader} width={800} height={800} />
                 </div>
 
 

@@ -12,10 +12,10 @@ const Contents = () => {
             <div className='flex bg-white flex-col mt-11 md:grid md:grid-cols-2 md:grid-rows-2  md:gap-2 md:items-center'>
                 <div data-aos="fade-right" className='drop-shadow-2xl text-2xl space-y-10 border-black border md:border-none  ml-11 md:text-7xl font-semibold p-3'>DESCOVER THE EVOLUTION OF SPORTS</div>
                 <div className=' p-3'>
-                    <Image alt='' className='shadow-lg rounded-xl' src={StyleOne} width={700} height={500} placeholder='blur' />
+                    <Image alt='' loading='lazy' className='shadow-lg rounded-xl' src={StyleOne} width={700} height={500} placeholder='blur' />
                 </div>
                 <div className='md:ml-6 p-3'>
-                    <Image alt='' className='shadow-lg rounded-xl' src={StyleTwo} width={700} height={500} placeholder='blur' />
+                    <Image alt='' loading='lazy' className='shadow-lg rounded-xl' src={StyleTwo} width={700} height={500} placeholder='blur' />
                 </div>
                 <div className='drop-shadow-2xl text-2xl p-6 border-black border md:border-none ml-11 md:text-7xl font-semibold md:p-3'>SHOW OFF WITH STYLE</div>
 
