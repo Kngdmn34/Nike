@@ -7,8 +7,13 @@ import ModelTrig from "./Model";
 
 export default function ProductCard() {
 
-    const [isModelOpen, setIsModelOpen] = useState(false);
-    const [selectedProduct, setSelectedProduct] = useState(null);
+    const [isModelOpen, setIsModelOpen] = useState(false)
+    const openModel = () => {
+        setIsModelOpen(true)
+    }
+    const closeModel = () => {
+        setIsModelOpen(false)
+    }
 
     const list = [
         {
@@ -52,17 +57,14 @@ export default function ProductCard() {
             price: "3299 MAD",
         },
     ];
-    const openModel = (product: any) => {
-        setSelectedProduct(product);
-        setIsModelOpen(true);
-    };
+
 
 
 
     return (
         <div className="gap-2 grid grid-cols-2 sm:grid-cols-4">
             {list.map((item, index) => (
-                <Card shadow="sm" key={index} isPressable onClick={() => openModel(item)} >
+                <Card shadow="sm" key={index} isPressable onClick={openModel} >
                     <CardBody className="overflow-visible p-0">
                         <Image
                             shadow="sm"
@@ -79,6 +81,7 @@ export default function ProductCard() {
                     </CardFooter>
                 </Card>
             ))}
+
 
         </div>
     );

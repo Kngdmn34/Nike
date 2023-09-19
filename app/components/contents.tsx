@@ -20,7 +20,7 @@ const Contents = () => {
                 <div className='drop-shadow-2xl text-2xl p-6 border-black border md:border-none ml-11 md:text-7xl font-semibold md:p-3'>SHOW OFF WITH STYLE</div>
 
             </div>
-            <div className='flex flex-col text-white bg-black  items-strech justify-center align-top md:flex-row md:text-left md:p-4 md:space-y-0 md:space-x-10 '>
+            <div className='flex flex-col md:mt-11 mr-2 ml-2 rounded-xl text-white bg-black  items-strech justify-center align-top md:flex-row md:text-left md:p-4 md:space-y-0 md:space-x-10 '>
                 <div>
                     <div className='md:w-1/2 '>
                         <h1 className='mt-24 text-left ml-11  leading-normal text-7xl font-semibold'>
@@ -29,7 +29,7 @@ const Contents = () => {
                     </div>
                 </div>
 
-                <div className='md:w-1/2 md:px-11  '>
+                <div className='md:w-1/2 md:px-11   '>
                     <h1 className='text-center  text-2xl w-full pt-6 font-bold mb-6 md:text-left md:pt-3 md:space-x-20 border-pink-300 border-b md:w-1/2'>TRENDING</h1>
                     <div>
                         <ProductCard />
