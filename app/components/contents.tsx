@@ -17,7 +17,7 @@ const Contents = () => {
                 <div className='md:ml-6 p-3'>
                     <Image alt='' className='shadow-lg rounded-xl' src={StyleTwo} width={700} height={500} placeholder='blur' />
                 </div>
-                <div data-aos="fade-left" className='drop-shadow-2xl text-2xl p-6 border-black border md:border-none ml-11 md:text-7xl font-semibold md:p-3'>SHOW OFF WITH STYLE</div>
+                <div className='drop-shadow-2xl text-2xl p-6 border-black border md:border-none ml-11 md:text-7xl font-semibold md:p-3'>SHOW OFF WITH STYLE</div>
 
             </div>
             <div data-aos="fade-down" className='flex flex-col md:mt-11 mr-2 ml-2 rounded-xl text-white bg-black  items-strech justify-center align-top md:flex-row md:text-left md:p-4 md:space-y-0 md:space-x-10 '>

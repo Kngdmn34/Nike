@@ -1,10 +1,14 @@
-import React from 'react'
+'use client'
+import React, { useState } from 'react'
 import { SiNike } from 'react-icons/si'
 
 const Navbar = () => {
+
+    const [navbar, setNavbar] = useState(false)
+
     return (
-        <div className='absolute ' >
-            <SiNike size={120} className='text-white  drop-shadow-2xl px-3 pb-11' />
+        <div className={`absolute  sm:flex justify-center md:left-0 md:ml-11  `} >
+            <SiNike size={70} className='fixed text-black bg-white     md:text-white md:bg-inherit md:border-none border border-black   w-full  drop-shadow-2xl p-2 ' />
         </div>
     )
 }

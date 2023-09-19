@@ -5,7 +5,7 @@ import { Poppins } from 'next/font/google';
 import { AOSinit } from './_aos';
 import React from 'react';
 import Footer from '@/app/components/Footer'
-import { NextUIProvider } from '@nextui-org/react'
+import { Analytics } from '@vercel/analytics/react';
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -30,7 +30,7 @@ export default function RootLayout({
 
       <AOSinit />
 
-      <body className={`${poppins.variable}`}>{children}<Footer /></body>
+      <body className={`${poppins.variable}`}>{children}<Footer />   <Analytics /></body>
 
     </html>
 
