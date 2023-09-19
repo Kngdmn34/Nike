@@ -1,4 +1,4 @@
-'use client'
+
 import './globals.css'
 import type { Metadata } from 'next'
 import { Poppins } from 'next/font/google';
@@ -29,9 +29,9 @@ export default function RootLayout({
     <html lang="en">
 
       <AOSinit />
-      <NextUIProvider>
-        <body className={`${poppins.variable}`}>{children}<Footer /></body>
-      </NextUIProvider>
+
+      <body className={`${poppins.variable}`}>{children}<Footer /></body>
+
     </html>
 
 
