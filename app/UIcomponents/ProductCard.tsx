@@ -2,20 +2,14 @@
 import React, { useState } from "react";
 
 import { Card, CardBody, CardFooter, Image, Button } from "@nextui-org/react";
-import ModelTrig from "./Model";
+
+
+
 
 
 export default function ProductCard() {
 
-    const [isModelOpen, setIsModelOpen] = useState(false)
-    const openModel = () => {
-        setIsModelOpen(true)
-    }
-    const closeModel = () => {
-        setIsModelOpen(false)
-    }
-
-    const list = [
+    const products = [
         {
             title: "Sandale",
             img: "/images/usamaproductone.jpg",
@@ -61,10 +55,11 @@ export default function ProductCard() {
 
 
 
+
     return (
         <div className="gap-2 grid grid-cols-2 sm:grid-cols-4">
-            {list.map((item, index) => (
-                <Card shadow="sm" key={index} isPressable onClick={openModel} >
+            {products.map((item, index) => (
+                <Card shadow="sm" key={index} isPressable  >
                     <CardBody className="overflow-visible p-0">
                         <Image
                             shadow="sm"
@@ -74,6 +69,7 @@ export default function ProductCard() {
                             className="w-full object-cover h-[140px] rounded-xl"
                             src={item.img}
                         />
+
                     </CardBody>
                     <CardFooter className="text-small  justify-between">
                         <b>{item.title}</b>

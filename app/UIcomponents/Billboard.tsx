@@ -13,7 +13,7 @@ const Billboard = () => {
 
     return (
 
-        <div className='relative  w-full h-screen transform md:-skew-y-6 overflow-hidden border-b-4  border-t-4 border-white'>
+        <div className='relative  w-full h-screen transform md:-skew-y-6 overflow-hidden border-b-4  border-t-4 border-gray-400'>
 
             <div className='grid grid-content-center items-center   md:mx-auto md:grid-cols-2 max-w-1/2 gap-x-4 h-screen'>
                 <div className='transform  mb-72 ml-2 md:skew-y-6 md:items-center'>
