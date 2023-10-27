@@ -9,6 +9,7 @@ export const AOSinit = () => {
         AOS.init({
             easing: 'ease-in-quad',
             duration: 1000,
+            once: true
         })
     }, [])
 
