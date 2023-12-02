@@ -7,9 +7,22 @@ const Navbar = () => {
     const [navbar, setNavbar] = useState(false)
 
     return (
-        <div className={`absolute bg-blend-color-dodge   sm:flex justify-center md:left-0 md:ml-11  `} >
-            <SiNike size={70} className='fixed z-30 xl:sticky  text-black bg-white     md:text-white md:bg-inherit md:border-none border border-black   w-full  drop-shadow-2xl p-2 ' />
-        </div>
+        <nav className=' z-30 top-0 font-thin text-sm  bg-neutral-100 w-full  py-1'>
+            <div className='flex mx-6 w-[60%] justify-between  items-center'>
+                <SiNike size={40} />
+
+                <ul className='flex text-tiny text-neutral-800 flex-row items-center space-x-2'>
+                    <li>Home</li>
+                    <li>Browse</li>
+                    <li>Contact</li>
+                </ul>
+
+            </div>
+
+
+
+
+        </nav>
     )
 }
 

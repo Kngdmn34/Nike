@@ -13,7 +13,7 @@ export default function Home() {
 
 
   return (
-    <main className="relative bg-black">
+    <main className="">
 
       <div className=''>
         <Navbar />
