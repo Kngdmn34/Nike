@@ -24,7 +24,7 @@ const Billboard = () => {
 
             </span>
 
-            <Image className='absolute drop-shadow-2xl  -top-52  w-full z-20' loading='eager' quality={100} src={NikeBill} height={200} width={200} placeholder='blur' alt='' />
+            <Image data-aos="fade-down" className='absolute drop-shadow-2xl  -top-52  w-full z-20' loading='eager' quality={100} src={NikeBill} height={200} width={200} placeholder='blur' alt='' />
 
 
 
