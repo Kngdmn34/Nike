@@ -71,7 +71,7 @@ export default function ProductCard() {
         <div className="w-full  mt-24   bg-neutral-100">
             <h1 className="text-center text-7xl mt-6 tracking-wider font-extrabold">TREND</h1>
 
-            <div className="w-[96%] cursor-default mx-auto mb-11 mt-11 grid grid-cols-5 gap-2">
+            <div className="w-[96%] cursor-default mx-auto mb-11 mt-11 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">
 
                 {products.map((product, id) => (
                     <div key={id} className="flex mb-11 flex-col">

@@ -12,18 +12,18 @@ const Contents = () => {
 
 
     return (
-        <div className='bg-white mt-6 '>
-            <span className=' flex justify-center text-left font-extrabold tracking-wider md:text-center text-7xl mt-11   p-5  '>FIND YOUR PERFECT RUNNING SHOE</span>
+        <div className='bg-white mt-6 overflow-hidden '>
+            <span className=' flex justify-center text-left text-4xl font-extrabold tracking-wider md:text-center md:text-7xl mt-11 p-5  '>FIND YOUR PERFECT RUNNING SHOE</span>
 
-            <div className='flex bg-white flex-col mt-11 md:grid md:grid-cols-2 md:grid-rows-2  md:gap-2 md:items-center'>
-                <div data-aos="fade-right" className='drop-shadow-2xl text-2xl space-y-10 border-black border md:border-none  ml-11 md:text-7xl font-semibold p-3'>DESCOVER THE EVOLUTION OF SPORTS</div>
+            <div className='flex w-full bg-white flex-col items-center mt-11 md:grid md:grid-cols-2 md:grid-rows-2  md:gap-2 md:items-center'>
+                <div data-aos="fade-right" className='drop-shadow-2xl text-xl space-y-10 lg:ml-11 md:text-7xl font-semibold p-2'>DESCOVER THE EVOLUTION OF SPORTS</div>
                 <div className=' p-3'>
-                    <Image alt='' loading='lazy' className='shadow-lg ml-24 rounded-xl' src={StyleOne} width={350} height={350} placeholder='blur' />
+                    <Image alt='' loading='lazy' className='shadow-lg lg:ml-24 rounded-xl' src={StyleOne} width={350} height={350} placeholder='blur' />
                 </div>
                 <div className='md:ml-6 p-3'>
-                    <Image alt='' loading='lazy' className='shadow-lg ml-24 rounded-xl' src={StyleTwo} width={350} height={350} placeholder='blur' />
+                    <Image alt='' loading='lazy' className='shadow-lg lg:ml-24 rounded-xl' src={StyleTwo} width={350} height={350} placeholder='blur' />
                 </div>
-                <div className='mb-11 md:mb-0 drop-shadow-2xl text-2xl p-6 border-black border md:border-none ml-11 md:text-7xl font-semibold md:p-3'>SHOW OFF WITH STYLE</div>
+                <div className='mb-11 md:mb-0 drop-shadow-2xl text-2xl p-2   lg:ml-11 md:text-7xl font-semibold md:p-3'>SHOW OFF WITH STYLE</div>
 
             </div>
             <ProductCard />
@@ -34,7 +34,7 @@ const Contents = () => {
                     </div>
                 </div>
 
-                <div className=' md:w-1/2 md:px-11 md:items-center  md:border-l-4 md:border-black    '>
+                <div className=' md:w-1/2 md:px-11 md:items-center cursor-default  md:border-l-4 md:border-black    '>
 
                     <h1 className='text-5xl drop-shadow-md  font-extrabold italic tracking-wider leading-relaxed mb-11  mt-11 '>DOWNLOAD OUR APP </h1>
                     <span ><SiNike size={100} className='absolute   bottom-0 right-0 pt-3 mr-3 drop-shadow-md' /></span>
