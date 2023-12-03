@@ -25,7 +25,7 @@ const Billboard = () => {
 
             </span>
 
-            <img className='absolute flex  -bottom-28  lg:-top-52 w-full   z-10' src={'/images/BillboardNike.png'} height={200} width={200} alt='' />
+            <img className='absolute flex  top-20  lg:-top-52 w-full   z-10' src={'/images/BillboardNike.png'} height={200} width={200} alt='' />
 
 
 
